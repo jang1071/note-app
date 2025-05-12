@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build results
+dist/
+build/ # 혹시 build 폴더도 사용한다면 추가
+dist-ssr # 프론트엔드에서 가져온 SSR 빌드 결과
+
+# Environment variables
+.env
+*.local # 프론트엔드에서 가져온 로컬 환경 설정 파일
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json # .vscode 폴더는 무시하지만 extensions.json 파일은 포함! (프론트엔드에서 가져옴)
+.idea # 프론트엔드에서 가져온 IDE 설정
+*.suo # 프론트엔드에서 가져온 Windows 개발 파일
+*.ntvs* # 프론트엔드에서 가져온 Windows 개발 파일
+*.njsproj # 프론트엔드에서 가져온 Windows 개발 파일
+*.sln # 프론트엔드에서 가져온 Windows 개발 파일
+*.sw? # 프론트엔드에서 가져온 임시 파일
